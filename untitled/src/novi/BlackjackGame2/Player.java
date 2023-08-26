@@ -21,7 +21,7 @@ public class Player {
 
 
         int gameOver = 21;
-        int cardInhand = 0;
+        cardInhand = 0;
 
 
         while (cardInhand <= gameOver) {

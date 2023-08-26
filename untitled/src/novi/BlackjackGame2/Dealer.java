@@ -1,9 +1,6 @@
 package novi.BlackjackGame2;
 
-import java.util.List;
 import java.util.Random;
-import java.util.Scanner;
-import java.util.zip.ZipFile;
 
 public class Dealer {
 
@@ -17,8 +14,7 @@ public class Dealer {
 
     public void turnHouse() throws InterruptedException {
         Random random = new Random();
-        int houseCardInHand = 0;
-        int gameOver = 22;
+        houseCardInHand = 0;
 
         while(houseCardInHand <= 16) {
             Thread.sleep(1000);
